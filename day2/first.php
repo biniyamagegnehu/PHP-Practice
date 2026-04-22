@@ -11,7 +11,7 @@ if ($dataArray === null) {
     die("Invalid JSON format.");
 }
 
-echo "Name: " . ($dataArray['name'] ) . "<br>";
-echo "Age: " . ($dataArray['age'] ) . "<br>";
-echo "City: " . ($dataArray['city'] );
+echo "Name: " . ($dataArray['name'] ?? 'N/A') . "<br>";
+echo "Age: " . ($dataArray['age'] ?? 'N/A') . "<br>";
+echo "City: " . ($dataArray['city'] ?? 'N/A');
 ?>
