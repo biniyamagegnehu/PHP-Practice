@@ -1,0 +1,3 @@
+R+ mode overwrites beginning
+e a: Appended line
+Mode a+: appended with read access
